@@ -88,12 +88,12 @@ nav a:houver {
 }
 
 .features {
-    padding: 80px 8%
+    padding: 80px 8%;
     text-align: center;
 }
 
 .features h2 {
-    front-size: 32px
+    front-size: 32px;
     margin-bottom: 50px;
 }
 
@@ -123,4 +123,45 @@ nav a:houver {
 
 .cta h2 {
     margin-bottom:20px;
+}
+
+.cta button {
+    background: white;
+    color: #4f46e5;
+    border: none;
+    padding: 15px 25px;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+    front-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cta button:hover {
+background: #e5e7eb;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #111;
+    color: white;
+    margin-top: 50px;
+
+}
+ 
+@media (max-width:900px) {
+ .hero {
+    flex-direction: column;
+    text-align: center;
+ }   
+
+ .hero-img img {
+    width: 100%;
+ }
+
+ nav ul {
+    display: none;
+ }
 }
